@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PACMAN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://img.icons8.com/fluency/48/pacman.png">
+  </head>
+
+
+  <body>
+    <p>
+      <span>Score: </span>
+      <span id="scoreEl">0</span>
+    </p>
+
+    <div id="modal" class="modal">
+        <h1 id="bigScoreEl" class="score">0</h1>
+        <p>Points</p>
+        <div>
+          <button id="startGameBtn" class="">
+            Start Game
+          </button>
+       </div>
+    </div>
+
+    <div class="canvas">
+      <canvas id="canvas"></canvas>
+    </div>
+  
+    <div class="buttons">
+      <div class="buttons1">
+        <div onClick="playerMove.up()">
+          <img src="./buttons/UP.png" alt="button">
+        </div>
+        <div onClick="playerMove.down()">
+          <img src="./buttons/DOWN.png" alt="button">
+        </div>
+      </div>
+
+      <div class="buttons2">
+        <div onClick="playerMove.left()">
+          <img src="./buttons/LEFT.png" alt="button">
+        </div>
+        <div onClick="playerMove.right()">
+          <img src="./buttons/RIGHT.png" alt="button">
+        </div>
+      </div>
+    </div>
+  
+   
+
+ 
+   
+
+	<script src="index.js"></script>
+  </body>
+
+</html>
