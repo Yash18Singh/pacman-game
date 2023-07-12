@@ -87,6 +87,12 @@ p{
 
     .modal{
         position:fixed;
-        left:25%;
+        width:70%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttons{
+        left:10%;
     }
 }
